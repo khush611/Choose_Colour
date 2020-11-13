@@ -111,6 +111,6 @@ const reset = () => {
   sliderText.innerText = `0%`;
   alteredColor.style.backgroundColor = hexInput.value;
   alteredColorText.innerText = `Altered Color: ${hexInput.value}`;
-  let colourRGB = convertHexToRGB(hexInput);
+  let colourRGB = convertHexToRGB(hexInput.value);
   alteredColorRGB.innerText = `Altered RGB: rgb(${colourRGB.r},${colourRGB.g},${colourRGB.b})`;
 };
