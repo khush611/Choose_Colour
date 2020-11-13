@@ -1,2 +1,10 @@
 # Choose_Colour
-Created with CodeSandbox
+
+1. Convert HEX TO RGB
+2. Choose different types of shades between light and dark
+3. Create the perfect palette or get inspired by choosing customized colours of your choice.
+4. See the difference between choosen colour and colour shade that you create via range.
+
+## DEMO : https://vndsb.csb.app/
+
+## CodeSandBox Link: https://codesandbox.io/s/determined-kapitsa-vndsb?file=/index.html:1441-1452
