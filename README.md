@@ -1,6 +1,6 @@
 # Choose_Colour
 
-1. Convert HEX TO RGB
+1. Visualize colour using hex value. Get hex and rgb value of your customized colour
 2. Choose different types of shades between light and dark
 3. Create the perfect palette or get inspired by choosing customized colours of your choice.
 4. See the difference between choosen colour and colour shade that you create via range.
