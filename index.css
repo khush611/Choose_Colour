@@ -46,7 +46,7 @@ input[type="text"] {
 .box {
   height: 100px;
   width: 80%;
-  background-color: #c6d5ac;
+  background-color: #fbd786;
   margin-bottom: 25px;
   border-radius: 10px;
   margin: 0 auto;
@@ -67,7 +67,7 @@ input[type="text"] {
 .toggle-btn {
   height: 30px;
   width: 60px;
-  background-color: #93f9b9;
+  background-color: #00b09b;
   border-radius: 30px;
   padding: 5px;
   margin: 0 10px;
@@ -85,6 +85,9 @@ input[type="text"] {
   transform: translateX(30px);
   background-color: black;
   box-shadow: inset 4px 0px whitesmoke, inset 4px 0px 1px 2px whitesmoke;
+}
+.toggle-btn.toggled {
+  background-color: #434343;
 }
 
 .unselected {
