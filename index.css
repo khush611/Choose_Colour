@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Fredoka One";
+  background-color: #182848;
+  color: white;
+}
+h1 {
+  font-family: "Pacifico";
+  background: -webkit-linear-gradient(#1cd8d2, #93edc7, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container {
+  padding: 0 10px;
+}
+
+.title {
+  text-align: center;
+  margin: 20px;
+  color: #d6d5ac;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 25px;
+}
+
+input[type="text"] {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.box {
+  height: 100px;
+  width: 80%;
+  background-color: #c6d5ac;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.toggle-text {
+  font-size: 18px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.toggle-btn {
+  height: 30px;
+  width: 60px;
+  background-color: #93f9b9;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.inner-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: orange;
+  transition: all 250ms;
+}
+
+.toggle-btn.toggled > .inner-circle {
+  transform: translateX(30px);
+  background-color: black;
+  box-shadow: inset 4px 0px whitesmoke, inset 4px 0px 1px 2px whitesmoke;
+}
+
+.unselected {
+  opacity: 0.25;
+}
